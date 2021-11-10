@@ -1,24 +1,26 @@
 Circuit: * C:\Users\trocache\Documents\Thierry\2021_2022\5ESPE_2021\MaContrib\MyPowerSimu\CelluleCommut.asc
 
-WARNING: Node REF_H is floating.
 WARNING: Node REF_L is floating.
+WARNING: Node REF_H is floating.
 
+WARNING: Less than two connections to node CMD_H.  This node is used by PWM1.
+WARNING: Less than two connections to node REF_H.  This node is used by PWM1.
 Direct Newton iteration for .op point succeeded.
 
-Date: Wed Nov 10 17:48:40 2021
-Total elapsed time: 2.377 seconds.
+Date: Wed Nov 10 18:06:28 2021
+Total elapsed time: 8.243 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 204679
-traniter = 204674
-tranpoints = 102138
-accept = 101938
-rejected = 200
+totiter = 1669871
+traniter = 1669858
+tranpoints = 818090
+accept = 814081
+rejected = 4009
 matrix size = 16
 fillins = 0
 solver = Normal
-Matrix Compiler1: 412 bytes object code size  0.2/0.2/[0.1]
-Matrix Compiler2: 888 bytes object code size  0.2/0.4/[0.1]
+Matrix Compiler1: 430 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 882 bytes object code size  0.1/0.2/[0.1]
 

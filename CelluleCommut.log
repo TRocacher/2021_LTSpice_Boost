@@ -1,28 +1,35 @@
 Circuit: * C:\Users\trocache\Documents\Thierry\2021_2022\5ESPE_2021\MaContrib\MyPowerSimu\CelluleCommut.asc
 
 Direct Newton iteration for .op point succeeded.
-Heightened Def Con from 0.00109788 to 0.00109789
-Heightened Def Con from 0.00118788 to 0.00118789
-Heightened Def Con from 0.0012525 to 0.00125251
-Heightened Def Con from 0.0036525 to 0.00365251
-Heightened Def Con from 0.00414788 to 0.00414789
-Heightened Def Con from 0.00472788 to 0.00472789
-Heightened Def Con from 0.00482788 to 0.00482789
+Heightened Def Con from 5.25e-005 to 5.2508e-005
+Heightened Def Con from 7.25e-005 to 7.2508e-005
+Heightened Def Con from 0.0001425 to 0.000142508
+Heightened Def Con from 0.0001725 to 0.000172508
+Heightened Def Con from 0.0002025 to 0.000202508
+Heightened Def Con from 0.0002525 to 0.000252508
+Heightened Def Con from 0.0002625 to 0.000262508
+Heightened Def Con from 0.0002725 to 0.000272508
+Heightened Def Con from 0.0002825 to 0.000282508
+Heightened Def Con from 0.0002925 to 0.000292508
+Heightened Def Con from 0.0003025 to 0.000302508
+Heightened Def Con from 0.0003725 to 0.000372508
+Heightened Def Con from 0.0003825 to 0.000382508
+Heightened Def Con from 0.0004325 to 0.000432508
 
-Date: Wed Nov 10 23:02:19 2021
-Total elapsed time: 26.055 seconds.
+Date: Wed Nov 10 23:48:12 2021
+Total elapsed time: 4.521 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 3294240
-traniter = 3294223
-tranpoints = 1035112
-accept = 710293
-rejected = 324826
-matrix size = 32
-fillins = 11
+totiter = 702677
+traniter = 702665
+tranpoints = 182935
+accept = 124943
+rejected = 58006
+matrix size = 34
+fillins = 10
 solver = Normal
-Matrix Compiler1: 1.70 KB object code size  2.0/0.6/[0.3]
-Matrix Compiler2: 2.33 KB object code size  2.6/1.0/[0.4]
+Matrix Compiler1: 1.79 KB object code size  0.5/0.3/[0.2]
+Matrix Compiler2: 2.51 KB object code size  0.2/0.6/[0.3]
 

@@ -5,20 +5,20 @@ WARNING: Node REF_L is floating.
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Thu Nov 11 21:24:20 2021
-Total elapsed time: 6.803 seconds.
+Date: Fri Nov 12 19:07:41 2021
+Total elapsed time: 19.139 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 740521
-traniter = 740510
-tranpoints = 369404
-accept = 368641
-rejected = 763
-matrix size = 21
+totiter = 2022794
+traniter = 2022783
+tranpoints = 1009360
+accept = 1007353
+rejected = 2007
+matrix size = 22
 fillins = 0
 solver = Normal
-Matrix Compiler1: 662 bytes object code size  0.3/0.2/[0.2]
-Matrix Compiler2: 1.22 KB object code size  0.2/0.4/[0.2]
+Matrix Compiler1: 712 bytes object code size  0.2/0.2/[0.1]
+Matrix Compiler2: 1.29 KB object code size  0.2/0.2/[0.1]
 

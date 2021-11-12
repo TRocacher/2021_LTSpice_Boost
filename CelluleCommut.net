@@ -1,0 +1,36 @@
+* C:\Users\trocache\Documents\Thierry\2021_2022\5ESPE_2021\MaContrib\MyPowerSimu\CelluleCommut.asc
+S§k1 SW_Node N001 cmd_H Ref_H MYSW
+S§k2 0 SW_Node cmd_L Ref_L MYSW
+V1 N003 0 50
+V3 Triangle 0 PULSE(0 +1 0 {0.5/Freq} {0.5/Freq} 0 {1/Freq} 2000)
+V4 Modulant 0 0.364
+B§PWM cmd_L Ref_L V=if(V(Modulant)>V(Triangle),5,0)
+B§PWM1 cmd_H Ref_H V=if(V(Modulant)<V(Triangle),5,0)
+L1 N006 N007 100µ
+R1 SW_Node N007 0.01
+V2 N004 0 32.8
+C1 N001 N008 272µ
+R_ESR N008 0 4m
+R2 N003 N002 50m
+C2 N006 0 68µ
+L2 N005 N006 3µ
+R3 N006 N009 0.5
+C3 N009 0 680µ
+D1 N004 N005 D
+L3 N001 N002 3µ
+.model D D
+.lib C:\Users\trocache\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model MYSW SW(Ron=1m Roff=1Meg Vt=2)
+.tran 0 10m 0 10n
+* http://www.linear.com/solutions/5735
+* Modele du pont en H
+* Commande
+.param Freq=100k
+* UBatt
+* Generation PWM (MLI)
+;op 0 1m 0 10n
+.ic I(L1)=4.71
+* IsMoy maxi = 2.4A
+* Voir doc de conception.\nL2 C2 pour filtre la partie AC / DC du PV.\nR3 et C3 pour amortir le circuit réalisé (résonance importante L2 C2).
+.backanno
+.end
